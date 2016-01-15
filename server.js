@@ -4,7 +4,7 @@ var app		= express() ;
 var path	= require('path') ;
 
 // set up the public folder to server public assets
-app.use(express.static(__dirname + 'public')) ;
+app.use(express.static(__dirname + '/public')) ;
 
 // set up one route to the index.html file
 app.get('*', function(req, res) {
