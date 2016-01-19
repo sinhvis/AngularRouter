@@ -1,4 +1,4 @@
-angular.module('routerApp', ['routerRoutes'])
+angular.module('routerApp', ['routerRoutes', 'ngAnimate'])
 
 // create the controller and inject Angular's 
 // this will be the controller for the ENTIRE site
@@ -32,5 +32,5 @@ angular.module('routerApp', ['routerRoutes'])
 
 	var vm = this;
 
-    	vm.message = 'Contact us! JK. This is just a demo.';
+    	vm.message = 'Contact us!' ; 
 });
